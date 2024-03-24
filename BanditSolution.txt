@@ -560,7 +560,7 @@ a program that executes all given commands in an inferior shell, the culprit is 
 all the ASCII letters into uppercase letters. this is true for all alpha letters.
 hence, the idea is that we need to execute a shell command that does not rely on alpha letters.
 
-from bash special characters $0 refers to the SHELL of the current executing script. 
+from bash special characters $_ refers to the SHELL of the current executing script. 
 this points to /bin/sh so just doing $0 we get inside a sh script then we can read password for 
 bandit33 from /etc/bandit_pass/bandit33.
 
@@ -579,39 +579,4 @@ If you have an idea for an awesome new level, please let us know!
 bandit33@bandit:~$ 
 logout
 Connection to bandit.labs.overthewire.org closed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
